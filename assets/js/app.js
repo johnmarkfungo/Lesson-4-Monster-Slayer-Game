@@ -40,7 +40,7 @@ const app = new Vue({
         this.winner = 'enemy'
       }
     },
-    enemyHealth(){
+    enemyHealth(value){
       if (value <= 0 && this.myHealth <= 0){
         //A draw
         this.winner = 'Draw'
